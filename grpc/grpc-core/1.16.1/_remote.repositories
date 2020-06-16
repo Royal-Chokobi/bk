@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jun 10 14:00:44 KST 2020
+grpc-core-1.16.1.pom>central=
+grpc-core-1.16.1-sources.jar>central=
+grpc-core-1.16.1.jar>central=
+grpc-core-1.16.1-javadoc.jar>central=

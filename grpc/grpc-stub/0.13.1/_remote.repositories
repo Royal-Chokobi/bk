@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Oct 23 17:05:30 KST 2019
+grpc-stub-0.13.1.jar>central=
+grpc-stub-0.13.1-javadoc.jar>central=
+grpc-stub-0.13.1-sources.jar>central=
+grpc-stub-0.13.1.pom>central=

@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Oct 23 16:19:00 KST 2019
+protoc-gen-grpc-java-1.4.0-osx-x86_64.exe>central=
+protoc-gen-grpc-java-1.4.0.pom>central=

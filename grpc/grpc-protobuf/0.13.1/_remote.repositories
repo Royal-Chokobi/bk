@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Oct 23 14:20:39 KST 2019
+grpc-protobuf-0.13.1.jar>central=
+grpc-protobuf-0.13.1-sources.jar>central=
+grpc-protobuf-0.13.1.pom>central=
+grpc-protobuf-0.13.1-javadoc.jar>central=

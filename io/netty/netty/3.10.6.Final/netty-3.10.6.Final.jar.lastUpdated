@@ -1,0 +1,10 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Oct 23 13:36:16 KST 2019
+https\://repository.cloudera.com/artifactory/cloudera-repos/.lastUpdated=1570414938536
+http\://maven.springframework.org/release/.error=
+@default-spring-maven-release-remote-http\://repo.spring.io/libs-release-remote/.lastUpdated=1570414977523
+https\://repo.maven.apache.org/maven2/.lastUpdated=1571805376404
+https\://repository.cloudera.com/artifactory/cloudera-repos/.error=
+http\://maven.springframework.org/release/.lastUpdated=1570414945778
+http\://repo.spring.io/libs-release-remote/.error=Could not transfer artifact io.netty\:netty\:jar\:3.10.6.Final from/to spring-maven-release-remote (http\://repo.spring.io/libs-release-remote/)\: GET request of\: io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar from spring-maven-release-remote failed
+http\://jcenter.bintray.com/.lastUpdated=1570414980575

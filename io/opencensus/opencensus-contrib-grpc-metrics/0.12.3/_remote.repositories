@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Oct 23 14:44:49 KST 2019
+opencensus-contrib-grpc-metrics-0.12.3.jar>spring-maven-release-remote=
+opencensus-contrib-grpc-metrics-0.12.3-sources.jar>central=
+opencensus-contrib-grpc-metrics-0.12.3.pom>spring-maven-release-remote=
+opencensus-contrib-grpc-metrics-0.12.3-javadoc.jar>central=
+opencensus-contrib-grpc-metrics-0.12.3.jar>central=
+opencensus-contrib-grpc-metrics-0.12.3.pom>central=

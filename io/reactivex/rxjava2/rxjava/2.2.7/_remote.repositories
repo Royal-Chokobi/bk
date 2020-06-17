@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jun 09 09:55:04 KST 2020
+rxjava-2.2.7.pom>central=
+rxjava-2.2.7.jar>central=
+rxjava-2.2.7.jar>spring-maven-release-remote=
+rxjava-2.2.7.pom>spring-maven-release-remote=

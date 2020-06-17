@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jun 10 13:32:15 KST 2020
+https\://repository.cloudera.com/artifactory/cloudera-repos/.lastUpdated=1570415012929
+http\://maven.springframework.org/release/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1591763535386
+http\://repo.spring.io/libs-release-remote/.lastUpdated=1570415013821
+https\://repository.cloudera.com/artifactory/cloudera-repos/.error=
+http\://maven.springframework.org/release/.lastUpdated=1570415013135

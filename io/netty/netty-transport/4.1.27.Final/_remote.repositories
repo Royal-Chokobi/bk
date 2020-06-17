@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Oct 23 17:01:43 KST 2019
+netty-transport-4.1.27.Final-sources.jar>central=
+netty-transport-4.1.27.Final.pom>central=
+netty-transport-4.1.27.Final.jar>spring-maven-release-remote=
+netty-transport-4.1.27.Final.pom>spring-maven-release-remote=
+netty-transport-4.1.27.Final-javadoc.jar>central=
+netty-transport-4.1.27.Final.jar>central=

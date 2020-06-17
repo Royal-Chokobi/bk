@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jun 10 13:46:42 KST 2020
+netty-codec-4.1.16.Final.jar>central=
+netty-codec-4.1.16.Final-javadoc.jar>central=
+netty-codec-4.1.16.Final-sources.jar>central=
+netty-codec-4.1.16.Final.pom>central=

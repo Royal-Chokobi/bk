@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Oct 23 17:10:33 KST 2019
+metrics-servlet-3.1.1-sources.jar>central=
+metrics-servlet-3.1.1-javadoc.jar>central=
+metrics-servlet-3.1.1.jar>central=
+metrics-servlet-3.1.1.pom>central=

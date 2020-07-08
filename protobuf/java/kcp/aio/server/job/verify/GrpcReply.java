@@ -8,11 +8,11 @@ package kcp.aio.server.job.verify;
  * The response message containing the greetings
  * </pre>
  *
- * Protobuf type {@code grpc.GrpcReply}
+ * Protobuf type {@code verify.GrpcReply}
  */
 public  final class GrpcReply extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:grpc.GrpcReply)
+    // @@protoc_insertion_point(message_implements:verify.GrpcReply)
     GrpcReplyOrBuilder {
   // Use GrpcReply.newBuilder() to construct.
   private GrpcReply(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
@@ -66,12 +66,12 @@ public  final class GrpcReply extends
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return kcp.aio.server.job.verify.GrpcProto.internal_static_grpc_GrpcReply_descriptor;
+    return kcp.aio.server.job.verify.KCPProto.internal_static_verify_GrpcReply_descriptor;
   }
 
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return kcp.aio.server.job.verify.GrpcProto.internal_static_grpc_GrpcReply_fieldAccessorTable
+    return kcp.aio.server.job.verify.KCPProto.internal_static_verify_GrpcReply_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             kcp.aio.server.job.verify.GrpcReply.class, kcp.aio.server.job.verify.GrpcReply.Builder.class);
   }
@@ -263,20 +263,20 @@ public  final class GrpcReply extends
    * The response message containing the greetings
    * </pre>
    *
-   * Protobuf type {@code grpc.GrpcReply}
+   * Protobuf type {@code verify.GrpcReply}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:grpc.GrpcReply)
+      // @@protoc_insertion_point(builder_implements:verify.GrpcReply)
       kcp.aio.server.job.verify.GrpcReplyOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return kcp.aio.server.job.verify.GrpcProto.internal_static_grpc_GrpcReply_descriptor;
+      return kcp.aio.server.job.verify.KCPProto.internal_static_verify_GrpcReply_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return kcp.aio.server.job.verify.GrpcProto.internal_static_grpc_GrpcReply_fieldAccessorTable
+      return kcp.aio.server.job.verify.KCPProto.internal_static_verify_GrpcReply_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               kcp.aio.server.job.verify.GrpcReply.class, kcp.aio.server.job.verify.GrpcReply.Builder.class);
     }
@@ -305,7 +305,7 @@ public  final class GrpcReply extends
 
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return kcp.aio.server.job.verify.GrpcProto.internal_static_grpc_GrpcReply_descriptor;
+      return kcp.aio.server.job.verify.KCPProto.internal_static_verify_GrpcReply_descriptor;
     }
 
     public kcp.aio.server.job.verify.GrpcReply getDefaultInstanceForType() {
@@ -473,10 +473,10 @@ public  final class GrpcReply extends
     }
 
 
-    // @@protoc_insertion_point(builder_scope:grpc.GrpcReply)
+    // @@protoc_insertion_point(builder_scope:verify.GrpcReply)
   }
 
-  // @@protoc_insertion_point(class_scope:grpc.GrpcReply)
+  // @@protoc_insertion_point(class_scope:verify.GrpcReply)
   private static final kcp.aio.server.job.verify.GrpcReply DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new kcp.aio.server.job.verify.GrpcReply();

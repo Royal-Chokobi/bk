@@ -4,7 +4,7 @@
 package kcp.aio.server.job.verify;
 
 public interface GrpcReplyOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:grpc.GrpcReply)
+    // @@protoc_insertion_point(interface_extends:verify.GrpcReply)
     com.google.protobuf.MessageOrBuilder {
 
   /**

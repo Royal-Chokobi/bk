@@ -27,7 +27,7 @@ public final class GreeterGrpc {
 
   private GreeterGrpc() {}
 
-  public static final String SERVICE_NAME = "grpc.Greeter";
+  public static final String SERVICE_NAME = "verify.Greeter";
 
   // Static method descriptors that strictly reflect the proto.
   @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
@@ -36,7 +36,7 @@ public final class GreeterGrpc {
       io.grpc.MethodDescriptor.<kcp.aio.server.job.verify.GrpcRequest, kcp.aio.server.job.verify.GrpcReply>newBuilder()
           .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
           .setFullMethodName(generateFullMethodName(
-              "grpc.Greeter", "CallGrpc"))
+              "verify.Greeter", "CallGrpc"))
           .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
               kcp.aio.server.job.verify.GrpcRequest.getDefaultInstance()))
           .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
@@ -236,7 +236,7 @@ public final class GreeterGrpc {
   private static final class GreeterDescriptorSupplier implements io.grpc.protobuf.ProtoFileDescriptorSupplier {
     @java.lang.Override
     public com.google.protobuf.Descriptors.FileDescriptor getFileDescriptor() {
-      return kcp.aio.server.job.verify.GrpcProto.getDescriptor();
+      return kcp.aio.server.job.verify.KCPProto.getDescriptor();
     }
   }
 

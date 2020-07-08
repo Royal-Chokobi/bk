@@ -8,11 +8,11 @@ package kcp.aio.server.job.verify;
  * The request message containing the user's name.
  * </pre>
  *
- * Protobuf type {@code grpc.GrpcRequest}
+ * Protobuf type {@code verify.GrpcRequest}
  */
 public  final class GrpcRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:grpc.GrpcRequest)
+    // @@protoc_insertion_point(message_implements:verify.GrpcRequest)
     GrpcRequestOrBuilder {
   // Use GrpcRequest.newBuilder() to construct.
   private GrpcRequest(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
@@ -126,12 +126,12 @@ public  final class GrpcRequest extends
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return kcp.aio.server.job.verify.GrpcProto.internal_static_grpc_GrpcRequest_descriptor;
+    return kcp.aio.server.job.verify.KCPProto.internal_static_verify_GrpcRequest_descriptor;
   }
 
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return kcp.aio.server.job.verify.GrpcProto.internal_static_grpc_GrpcRequest_fieldAccessorTable
+    return kcp.aio.server.job.verify.KCPProto.internal_static_verify_GrpcRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             kcp.aio.server.job.verify.GrpcRequest.class, kcp.aio.server.job.verify.GrpcRequest.Builder.class);
   }
@@ -553,20 +553,20 @@ public  final class GrpcRequest extends
    * The request message containing the user's name.
    * </pre>
    *
-   * Protobuf type {@code grpc.GrpcRequest}
+   * Protobuf type {@code verify.GrpcRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:grpc.GrpcRequest)
+      // @@protoc_insertion_point(builder_implements:verify.GrpcRequest)
       kcp.aio.server.job.verify.GrpcRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return kcp.aio.server.job.verify.GrpcProto.internal_static_grpc_GrpcRequest_descriptor;
+      return kcp.aio.server.job.verify.KCPProto.internal_static_verify_GrpcRequest_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return kcp.aio.server.job.verify.GrpcProto.internal_static_grpc_GrpcRequest_fieldAccessorTable
+      return kcp.aio.server.job.verify.KCPProto.internal_static_verify_GrpcRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               kcp.aio.server.job.verify.GrpcRequest.class, kcp.aio.server.job.verify.GrpcRequest.Builder.class);
     }
@@ -615,7 +615,7 @@ public  final class GrpcRequest extends
 
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return kcp.aio.server.job.verify.GrpcProto.internal_static_grpc_GrpcRequest_descriptor;
+      return kcp.aio.server.job.verify.KCPProto.internal_static_verify_GrpcRequest_descriptor;
     }
 
     public kcp.aio.server.job.verify.GrpcRequest getDefaultInstanceForType() {
@@ -1083,10 +1083,10 @@ public  final class GrpcRequest extends
     }
 
 
-    // @@protoc_insertion_point(builder_scope:grpc.GrpcRequest)
+    // @@protoc_insertion_point(builder_scope:verify.GrpcRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:grpc.GrpcRequest)
+  // @@protoc_insertion_point(class_scope:verify.GrpcRequest)
   private static final kcp.aio.server.job.verify.GrpcRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new kcp.aio.server.job.verify.GrpcRequest();

@@ -27,7 +27,7 @@ public final class GreeterGrpc {
 
   private GreeterGrpc() {}
 
-  public static final String SERVICE_NAME = "kcp.aio.server.job.verify.Greeter";
+  public static final String SERVICE_NAME = "kcpgrpc.Greeter";
 
   // Static method descriptors that strictly reflect the proto.
   @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
@@ -36,7 +36,7 @@ public final class GreeterGrpc {
       io.grpc.MethodDescriptor.<kcp.aio.server.job.verify.GrpcRequest, kcp.aio.server.job.verify.GrpcReply>newBuilder()
           .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
           .setFullMethodName(generateFullMethodName(
-              "kcp.aio.server.job.verify.Greeter", "callGrpc"))
+              "kcpgrpc.Greeter", "CallGrpc"))
           .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
               kcp.aio.server.job.verify.GrpcRequest.getDefaultInstance()))
           .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(

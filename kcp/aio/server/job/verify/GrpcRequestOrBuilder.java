@@ -9,72 +9,60 @@ public interface GrpcRequestOrBuilder extends
 
   /**
    * <code>float t0 = 1;</code>
-   * @return The t0.
    */
   float getT0();
 
   /**
    * <code>float t1 = 2;</code>
-   * @return The t1.
    */
   float getT1();
 
   /**
    * <code>float t2 = 3;</code>
-   * @return The t2.
    */
   float getT2();
 
   /**
    * <code>float t3 = 4;</code>
-   * @return The t3.
    */
   float getT3();
 
   /**
    * <code>float t4 = 5;</code>
-   * @return The t4.
    */
   float getT4();
 
   /**
    * <code>float t5 = 6;</code>
-   * @return The t5.
    */
   float getT5();
 
   /**
    * <code>float t6 = 7;</code>
-   * @return The t6.
    */
   float getT6();
 
   /**
    * <code>float t7 = 8;</code>
-   * @return The t7.
    */
   float getT7();
 
   /**
    * <code>float t8 = 9;</code>
-   * @return The t8.
    */
   float getT8();
 
   /**
    * <code>float t9 = 10;</code>
-   * @return The t9.
    */
   float getT9();
 
   /**
    * <code>string re = 11;</code>
-   * @return The re.
    */
   java.lang.String getRe();
   /**
    * <code>string re = 11;</code>
-   * @return The bytes for re.
    */
   com.google.protobuf.ByteString
       getReBytes();

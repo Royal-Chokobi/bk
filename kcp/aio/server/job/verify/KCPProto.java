@@ -39,15 +39,23 @@ public final class KCPProto {
       "\005 \001(\002\022\n\n\002t5\030\006 \001(\002\022\n\n\002t6\030\007 \001(\002\022\n\n\002t7\030\010 \001(" +
       "\002\022\n\n\002t8\030\t \001(\002\022\n\n\002t9\030\n \001(\002\022\n\n\002re\030\013 \001(\t\"\034\n" +
       "\tGrpcReply\022\017\n\007message\030\001 \001(\t2e\n\007Greeter\022Z" +
-      "\n\010callGrpc\022&.kcp.aio.server.job.verify.G" +
+      "\n\010CallGrpc\022&.kcp.aio.server.job.verify.G" +
       "rpcRequest\032$.kcp.aio.server.job.verify.G" +
       "rpcReply\"\000B-\n\031kcp.aio.server.job.verifyB" +
       "\010KCPProtoP\001\242\002\003HLWb\006proto3"
     };
-    descriptor = com.google.protobuf.Descriptors.FileDescriptor
+    com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
+        new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
+          public com.google.protobuf.ExtensionRegistry assignDescriptors(
+              com.google.protobuf.Descriptors.FileDescriptor root) {
+            descriptor = root;
+            return null;
+          }
+        };
+    com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-        });
+        }, assigner);
     internal_static_kcp_aio_server_job_verify_GrpcRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
     internal_static_kcp_aio_server_job_verify_GrpcRequest_fieldAccessorTable = new

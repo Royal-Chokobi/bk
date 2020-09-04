@@ -1,3 +1,6 @@
+
+java -jar -javaagent:/Users/leejaeyoon/Desktop/pinpoint/pinpoint-agent-1.8.5/pinpoint-bootstrap-1.8.5.jar -Dpinpoint.agentId=testserver2 -Dpinpoint.applicationName=KCPapiGateway -Dspring.profiles.active=common /Users/leejaeyoon/Desktop/sample_site-0.0.1.jar
+
 Standalone mode
 Add following configuration in standalone.conf :-
 
